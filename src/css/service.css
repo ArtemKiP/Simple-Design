@@ -1,0 +1,37 @@
+.service {
+  padding: 56px 0 132px;
+  position: relative;
+}
+.service__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 45px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__card-title {
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 52px;
+  color: #000000;
+}
+.service__card-title_orange {
+  color: #BD7048;
+}
+.service__card-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  width: 662px;
+}
+.service-img {
+  position: absolute;
+  width: 542px;
+  height: 424px;
+  top: 31px;
+  right: 0;
+}

@@ -1,0 +1,40 @@
+.extra {
+  padding-bottom: 107px;
+}
+.extra-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #262626;
+  margin-bottom: 88px;
+}
+.extra__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.extra__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 38px;
+}
+.extra__card-img {
+  height: 264px;
+  width: 355px;
+}
+.extra__card-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #353535;
+}

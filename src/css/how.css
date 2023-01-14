@@ -1,0 +1,23 @@
+.how {
+  padding-bottom: 118px;
+}
+.how-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #262626;
+}
+.how__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 77px;
+}
+.how__row-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262626;
+}

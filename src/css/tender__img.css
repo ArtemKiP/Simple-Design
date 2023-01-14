@@ -1,0 +1,9 @@
+.tender__img {
+  padding: 633px 0 65px;
+  background: url("../images/tender__img/bg.png") center/cover no-repeat;
+}
+.tender__img-text {
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFFFFF;
+}

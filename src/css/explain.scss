@@ -1,0 +1,53 @@
+.explain{
+  padding: 200px 0 200px;
+  position: relative;
+  &:before{
+    content: '';
+    height: 626px;
+    width: 631px;
+    position: absolute;
+    right: 0;
+    top: 205px;
+    background: url("../images/explain/01 1.png") center/cover no-repeat;
+    z-index: -1;
+
+  }
+  &-img{
+    height: 414px;
+    width: 321px;
+  }
+  &__cards{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+  }
+  &__left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 75px;
+&-title{
+  font-weight: 700;
+  font-size: 40px;
+  color: #262626;
+}
+    &__card{
+      display: flex;
+      &-number{
+        font-weight: 700;
+        font-size: 70px;
+        margin-right: 40px;
+        color: rgba(189, 112, 72, 0.2);
+      }
+      &-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #262626;
+      }
+      &_opacity{
+        color: #262626B2;
+
+      }
+    }
+  }
+}

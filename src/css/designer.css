@@ -1,0 +1,41 @@
+.designer {
+  padding-bottom: 65px;
+}
+.designer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 130px;
+     -moz-column-gap: 130px;
+          column-gap: 130px;
+}
+.designer-img {
+  width: 384px;
+  height: 462px;
+}
+.designer-person {
+  font-weight: 400;
+  font-size: 43px;
+  color: #1B1B1B;
+}
+.designer-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7E7E7E;
+  margin: 20px 0 35px;
+}
+.designer-text, .designer-text_list {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.designer-text_list {
+  list-style-type: disc;
+  margin-left: 20px;
+}

@@ -1,0 +1,37 @@
+.questions{
+  padding: 106px 0 74px;
+  &__accordion-title{
+  font-weight: 600;
+  font-size: 20px;
+  color: #262626;
+  margin-left: 30px;
+}
+  &-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 72px;
+  }
+
+}
+.accordion{
+   height: 89px;
+   width: 1186px;
+   border-radius: 100px;
+   background: #FAFAFA;
+   display: flex;
+   align-items: center;
+   padding: 34px 20px;
+   margin-top: 21px;
+
+ }
+.content{
+  max-height: 0;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(38, 38, 38, 0.7);
+  margin: 34px 0 34px;
+}

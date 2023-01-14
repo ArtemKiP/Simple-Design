@@ -1,0 +1,27 @@
+.renovation{
+  padding-bottom: 120px;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 218px;
+    &-img{
+      height: 369px;
+      width: 379px;
+    }
+    &__right{
+      &-title{
+        font-weight: 600;
+        font-size: 30px;
+        color: #262626;
+      }
+      &-text{
+        margin: 32px 0 39px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: rgba(38, 38, 38, 0.7);
+      }
+    }
+  }
+}

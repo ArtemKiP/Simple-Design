@@ -1,0 +1,20 @@
+.team {
+  padding: 39px 0 103px;
+  text-align: center;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  opacity: 0.7;
+}
+.team-title_orange {
+  color: #BD7048;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61px;
+  color: #060606;
+  margin-top: 19px;
+}

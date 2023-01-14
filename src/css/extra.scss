@@ -1,0 +1,30 @@
+.extra{
+  padding-bottom: 107px;
+  &-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #262626;
+    margin-bottom: 88px;
+    text-align: center;
+  }
+  &__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+    &-img{
+      height: 264px;
+      width: 355px;
+    }
+    &-text{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #353535;
+    }
+  }
+}

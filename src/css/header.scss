@@ -1,0 +1,51 @@
+.header{
+  padding: 46px 0 32px;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title-title{
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 2px;
+  }
+  &-title_orange{
+    color: #BD7048;
+  }
+  &__title-subtitle{
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+  }
+  &__links{
+    display: flex;
+    column-gap: 35px;
+    &-link{
+
+      font-weight: 600;
+      font-size: 15px;
+      color: #00000080;
+      &:hover{
+        color: #BD7048;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__phone{
+    display: flex;
+&-title{
+  font-weight: 600;
+  font-size: 15px;
+  color: #3B3B3B;
+  margin-left: 18px;
+}
+    &-subtitle{
+      margin-left: 18px;
+      font-weight: 500;
+      font-size: 15px;
+      color: rgba(59, 59, 59, 0.5);
+    }
+  }
+}

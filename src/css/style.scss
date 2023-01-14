@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-style: normal;
+  transition: .5s all;
+}
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn{
+  padding: 28px 40px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  background: #BD7048;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  &:hover{
+    background: #FAFAFA;
+    color: #BD7048;
+  }
+}
+.btn2{
+  padding: 28px 40px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #BD7048;
+  background: #FFDBC9;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    color: white;
+    background: #BD7048;
+  }
+}
+.choose-btn{
+  padding: 14px 35px 19px;
+  background: #FAFAFA;
+  border-radius: 100px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: #BD7048;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  cursor: pointer;
+  &:hover{
+    background: #BD7048;
+    color: white;
+  }
+}
+.orange{
+  color: #BD7048;
+}
+
+
+
+
+
+
+@import "header";
+@import "design";
+@import "explain";
+@import "services";
+@import "renovation";
+@import "rooms";
+@import "rooms-swiper";
+@import "test";
+@import "questions";
+@import "footer";
+@import "team";
+@import "team2";
+@import "service";
+@import "people";
+@import "about-people-swiper";
+@import "designer";
+@import "projects";
+@import "planing";
+@import "extra";
+@import "product-swiper";
+@import "dark";
+@import "how";
+@import "tender__img";
+@import "tender__text";
+@import "smeta__img";
+@import "print__img";
+@import "my-order";
+
+

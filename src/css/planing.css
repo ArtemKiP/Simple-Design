@@ -1,0 +1,84 @@
+.planing {
+  padding: 109px 0 85px;
+}
+.planing__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0 180px;
+}
+.planing-text, .planing__left-list, .planing__left-days {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.planing__left-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.planing__left-if, .planing__left-term, .planing__left-benefits, .planing__left__price-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  margin: 26px 0 34px;
+}
+.planing__left-title {
+  position: relative;
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.planing__left-title:before {
+  content: "";
+  width: 35px;
+  height: 1px;
+  background: #FFFFFF;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.planing__left-benefits {
+  margin-top: 50px;
+}
+.planing__left__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 200px;
+     -moz-column-gap: 200px;
+          column-gap: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 31px;
+}
+.planing__left__price-price {
+  font-weight: 500;
+  font-size: 30px;
+  color: #BD7048;
+}
+.planing__left__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 19px;
+     -moz-column-gap: 19px;
+          column-gap: 19px;
+}
+.planing-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 12px;
+     -moz-column-gap: 12px;
+          column-gap: 12px;
+}

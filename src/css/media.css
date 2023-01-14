@@ -1,0 +1,195 @@
+@media (max-width: 1024px) {
+    .design__info{
+        width: 956px;
+    }
+    .explain:before{
+        width: 350px;
+    }
+    .services:before{
+        width: 350px;
+    }
+    .services__bottom:before{
+        width: 350px;
+    }
+    .rooms__row-title:before{
+        width: 755px;
+    }
+    .rooms__row-title3:before{
+        width: 573px;
+    }
+    .accordion{
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 992px) {
+    .design__order{
+        height: 101px;
+        width: 287px;
+    }
+    .design-title {
+        font-size: 27px;
+    }
+    .design__info__card{
+        margin: 0 13px 0 25px;
+    }
+    .design__info {
+        width: 734px;
+    }
+    .renovation__row{
+        gap: 0 99px;
+    }
+    .services__right-img1 {
+        height: 341px;
+        width: 452.999939px;
+    }
+    .services__right-img2{
+        height: 280.999996px;
+        width: 363.999995px;
+    }
+    .services__row{
+        column-gap: 59px;
+    }
+    .services__left-info{
+        font-size: 15px;
+    }
+    .services:before {
+        width: 350px;
+        height: 540px;
+    }
+    .services__bottom__left-img1 {
+        height: 330px;
+        width: 403px;
+    }
+    .services__bottom__left-img2{
+        bottom: 48px;
+        width: 339px;
+        height: 286px;
+    }
+    .services__bottom:before{
+        top: 31px;
+
+    }
+    .services__left-title{
+        font-size: 20px;
+    }
+    .services__left-item{
+        font-size: 15px;
+    }
+    .rooms__row-title:before {
+        width: 539px;
+    }
+    .swiper-pagination-bullet{
+        width: 51px;
+    }
+    .rooms__row-title3:before {
+        width: 366px;
+    }
+    .choose-btn{
+        padding: 11px 12px 11px;
+    }
+
+    }
+
+@media (max-width: 767px) {
+    .header__links{
+        column-gap: 8px;
+    }
+    .header__phone-title{
+        font-size: 12px;
+    }
+    .header__links-link{
+        font-size: 13px;
+    }
+    .design__info-title{
+        font-size: 13px;
+        margin-left: 14px;
+    }
+    .design__info-subtitle{
+        font-size: 14px;
+        margin-left: 14px;
+    }
+    .design__info {
+        width: 546px;
+    }
+    .explain-img {
+        height: 351px;
+        width: 257px;
+    }
+    .explain__left__card-title{
+        font-size: 13px;
+    }
+    .explain__left__card-number{
+        font-size: 46px;
+    }
+    .explain__left-title{
+        font-size: 21px;
+    }
+    .explain:before{
+        top: 303px;
+        height: 546px;
+        width: 217px;
+    }
+    .explain__left{
+        row-gap: 40px;
+    }
+    .explain {
+        padding: 103px 0 100px;
+        position: relative;
+    }
+    .services__right-img1 {
+        height: 248px;
+        width: 305px;
+    }
+    .services__right-img2 {
+        height: 189px;
+        width: 226px;
+    }
+    .services__bottom__left-img2 {
+        bottom: 173px;
+        width: 258px;
+        height: 216px;
+    }
+    .services__bottom__left-img1 {
+        height: 228px;
+        width: 264px;
+    }
+    .renovation__row-img {
+        height: 272px;
+        width: 303px;
+    }
+    .renovation__row__right-title{
+        font-size: 15px;
+    }
+    .renovation__row__right-text{
+        font-size: 14px;
+        margin: 18px 0 23px;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 22px 20px;
+    }
+    .rooms__row__card__choose-title{
+        font-size: 9px;
+    }
+    .choose-btn {
+        padding: 8px 7px 9px;
+        font-size: 10px;
+    }
+    .swiper-pagination-bullet {
+        width: 35px;
+    }
+    .rooms__row-title:before {
+        width: 375px;
+    }
+    .rooms__row-title3:before {
+        width: 166px;
+    }
+
+
+
+
+}
+

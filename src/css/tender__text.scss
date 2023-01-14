@@ -1,0 +1,45 @@
+.tender__text{
+  padding: 63px 0 67px;
+  &-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(38, 38, 38, 0.7);
+    margin-bottom: 70px;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__btns{
+      display: flex;
+      column-gap: 44px;
+      align-items: center;
+    }
+    &-buy{
+      font-weight: 600;
+      font-size: 15px;
+      color: #BD7048;
+    }
+    &__text{
+      display: flex;
+      column-gap: 15px;
+      align-items: center;
+    }
+    &-info{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(38, 38, 38, 0.7);
+    }
+    &-price{
+      font-weight: 600;
+      font-size: 30px;
+      color: #2C2C2C;
+    }
+  }
+}
+.tender__else{
+  display: flex;
+  justify-content: left;
+  column-gap: 50px;
+}

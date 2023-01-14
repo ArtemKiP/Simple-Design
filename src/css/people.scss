@@ -1,0 +1,33 @@
+.people{
+  padding-bottom: 100px;
+  &__text{
+    display: flex;
+    justify-content: right;
+    &-title{
+      position: relative;
+      font-weight: 400;
+      font-size: 43px;
+      line-height: 52px;
+      color: #000000;
+      margin-bottom: 60px;
+      &:before{
+        content: '';
+        width: 556px;
+        height: 1px;
+        background: #000000;
+        position: absolute;
+        left: -619px;
+        top: 25px;
+
+      }
+      &_orange{
+        color: #BD7048;
+      }
+    }
+  }
+  &-img{
+    width: 1000px;
+    height: 600px;
+
+  }
+}

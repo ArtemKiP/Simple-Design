@@ -1,0 +1,35 @@
+.designer{
+  padding-bottom: 65px;
+&__row{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 130px;
+}
+  &-img{
+    width: 384px;
+    height: 462px;
+  }
+  &-person{
+    font-weight: 400;
+    font-size: 43px;
+    color: #1B1B1B;
+  }
+  &-subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7E7E7E;
+    margin: 20px 0 35px;
+  }
+  &-text, &-text_list{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  &-text_list{
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+}
